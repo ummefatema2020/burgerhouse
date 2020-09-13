@@ -1,0 +1,283 @@
+/*google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ /*global css*/
+
+ *{margin: 0;
+ 	padding: 0;}
+
+h1{
+	font-family: 'Alfa Slab One', cursive;
+} 	
+
+input,p,span{
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+h2,h3,h4,h5,h6,button{
+	font-family: 'Bebas Neue', cursive;
+
+}
+
+a,a:hover{ text-decoration: none; }
+
+/*header part css*/
+
+.header{background: url(../img/banner.png);
+	    background-position:center;
+	    background-repeat:no-repeat;
+	    background-size: cover;
+	    height: 100vh;
+	    width: 100%;
+	    position: relative;
+	}
+.price-img{
+	position: absolute;
+    bottom: -525px;
+    left: 580px;
+}
+
+
+.nav-link{font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+	}
+
+.nav-item{  margin-left: 30px;
+    }
+
+
+nav{ padding: 30px 0; }
+
+/*banner-text css*/
+
+.banner-text{width: 100%;
+	margin: 200px 0;
+
+}
+
+.pre-title{font-size: 18px;
+	border: 2px dashed #3d2514;
+	display: inline-block;
+	padding: 8px;
+
+}
+
+.title{font-size: 87px;
+	color: #3d2514;
+	text-shadow: 4px 4px #fee8bb;
+
+}
+
+.sub-title{color: #3d2514;
+	text-shadow: 3px 3px #fee8bb;
+
+}
+
+/*burger blog css*/
+
+.burger-blog{width: 100%;
+	padding: 40px 0;
+
+}
+
+.blog-info,.upper-blog,.lower-blog{ position: relative; }
+
+.blog-title{ position: absolute;
+    top: 26px;
+    left: 32px;
+    color: white; 
+    text-transform: uppercase;}
+
+.blog-title h2{ font-size: 42px;
+
+                line-height: 42px; } 
+
+.upper-blog {
+    margin-bottom: 32px; }  
+
+/*button css*/
+
+.blog-button{ text-align: center;
+              margin: 42px 0 !important;
+              }
+
+button{ color:#3d2514 !important; 
+  padding: 10px 20px;
+  font-family: 'Bebas Neue', cursive; }              
+
+.btn-primary {border: 1px solid #ffc045 !important;
+    background: #ffc045 !important;
+    border-radius: 0;
+  }                 
+
+/*order section css*/
+ 
+.order-now {width: 100%;
+	text-align: center;
+
+}
+
+.order-now h1{color: #3d2514;
+	margin-bottom: 20px;
+
+}
+
+.top{ margin-bottom: 40px; }
+
+
+.order-now button{ font-family: 'Alfa Slab One', cursive;
+                   background:#bf2222;
+                   text-align: center;
+                   color: white !important;}
+
+.order-now h2{margin-top: 15px;}   
+
+/*event part css*/
+
+.event{width: 100%;
+margin: 60px 0;}
+
+.event p{
+	color: #a4a4a4;
+}
+.event h1{
+	color:#3d2514 ;
+}
+
+.event-text{padding:  50px 40px;}
+
+.event-box{ box-shadow: 6px 2px 5px 0px rgba(0,0,0,0.6) ;
+ transition:  all 0.5s ease-in-out;
+ padding: 20px; }
+
+.event-box:hover{ box-shadow: 6px 3px 10px 0px rgba(0,0,0,0.6) ;
+transition:  all 0.5s ease-in-out;}
+
+/*slider css*/
+
+
+.owl-theme .owl-nav {
+    display: none;}
+
+.owl-dots{position: absolute;
+    bottom: 0;
+    left: 27px;}
+
+.owl-theme .owl-dots .owl-dot.active span{background: #ffc045 !important}
+
+    /*form section css*/
+ .form{background: url(../img/form.png);
+       width: 100%;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       height: 100vh;}   
+
+.form  {position: relative;
+margin-top: 20px;}
+
+.form .form-title{ 
+    position: absolute;
+    left: 350px;
+    text-align: center;
+    top: 100px; }
+
+.form-title h1 {color: #3d2514 !important;}
+
+
+.form-title h3 {color: #3d2514 !important;}
+
+.form-design{    position: absolute;
+    top: 300px;
+    left: 300px;
+    border: none;
+    margin-left: -40px;}
+
+.form-design form input{width: 330px;
+    height: 65px;
+    margin-bottom: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px; }
+
+
+
+
+.form-design .col-md-6{flex: 0 0 50%;
+    max-width: 40%;}
+
+ .find-table{   width: 330px;
+    height: 65px;
+    background: #bf2222;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px;
+    color: white !important;
+}
+
+/*footer section css*/
+
+.footer{width: 100%;
+background:url(../img/footer.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 60vh;}
+
+
+.footer-logo{
+	    margin-top: 50px;
+}
+
+.footer p{ color: white !important;
+margin-top: 40px; }
+
+ .copyright p { color: white !important;
+font-family: 'Bebas Neue', cursive !important;
+padding-top: 40px; }
+
+.contact-info  {margin-top: 200px;
+    margin-left: 90px;}
+
+  .contact-info ul li{ list-style: none; 
+  	color: white;
+  	text-align: right;
+  	margin-bottom: 20px;
+    font-family:'Bebas Neue', cursive !important }  
+
+.contact-info ul li i{
+	padding-bottom: 30px;
+	margin-right: 10px;
+    color:white;}
+
+    /*social icon part*/
+
+.social-media{text-align: right;
+	
+
+}
+
+.social-media ul li{list-style: none;
+	                 display: inline-block;
+	             
+                    
+                    }   
+
+.social-media ul li a i{font-size: 22px;
+	                    height: 30px;
+	                    width: 30px;
+	                    background: #fff;
+	                    border-radius: 50px;
+	                    line-height: 30px;
+	                    margin:0px 10px;
+	                    color: black;
+	                    text-align: center;
+}
